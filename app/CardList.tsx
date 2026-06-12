@@ -12,7 +12,6 @@ interface Note {
 
 export default function CardList() {
     const db = useSQLiteContext()
-
     const [notes, setNotes] = useState<Note[]>([])
 
     useEffect(() => {
@@ -53,8 +52,10 @@ const styles = StyleSheet.create({
     list: {
         // borderWidth: 1,
         // borderColor: "black",
+        // paddingVertical: 10,
     },
     listContent: {
         gap: 10,
+        paddingBottom: 20
     }
 })

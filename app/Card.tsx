@@ -12,7 +12,7 @@ export default function Card({ item }: { item: any }) {
                 <Feather
                     name="trash-2"
                     size={24}
-                    color="lightgray"
+                    color="#99A7BB"
                 />
             </Pressable>
 
@@ -29,12 +29,20 @@ export default function Card({ item }: { item: any }) {
 
 const styles = StyleSheet.create({
     container: {
-        borderColor: "#738196",
-        borderWidth: 1,
+        // borderColor: "#738196",
+        // borderWidth: 0.1,
         borderRadius: 20,
         paddingBottom: 20,
         marginHorizontal: 20,
         backgroundColor: "white",
+        shadowColor: "#A1ACBA",
+        shadowOffset: {
+            width: 5,
+            height: 5,
+        },
+        shadowOpacity: 0.15,
+        shadowRadius: 4.65,
+        elevation: 4,
     },
     noteName: {
         // borderColor: "black",

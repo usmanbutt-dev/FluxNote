@@ -1,14 +1,16 @@
 import Feather from '@expo/vector-icons/Feather';
-import { Image, Pressable, StyleSheet, Text, View } from "react-native";
+import { Pressable, StyleSheet, Text, View } from "react-native";
 
 export default function CustomHeader() {
     return (
         <View style={styles.container}>
 
             <View style={styles.leftContainer}>
-                <Image
-                    source={require("../assets/images/icon.png")}
+                <Feather
                     style={styles.avatar}
+                    name="user"
+                    size={40}
+                    color="black"
                 />
             </View>
 
@@ -21,7 +23,7 @@ export default function CustomHeader() {
                 <Pressable style={styles.settings} onPress={() => alert("Settings")}>
                     <Feather
                         name="settings"
-                        size={24}
+                        size={20}
                         color="black"
                     />
                 </Pressable>
@@ -66,8 +68,6 @@ const styles = StyleSheet.create({
         alignItems: "center"
     },
     avatar: {
-        width: 50,
-        height: 50,
         borderRadius: 25,
         borderStyle: "solid",
         borderColor: "black",
