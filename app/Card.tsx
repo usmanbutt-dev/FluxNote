@@ -29,8 +29,6 @@ export default function Card({ item }: { item: any }) {
 
 const styles = StyleSheet.create({
     container: {
-        // borderColor: "#738196",
-        // borderWidth: 0.1,
         borderRadius: 20,
         paddingBottom: 20,
         marginHorizontal: 20,
@@ -45,16 +43,12 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     noteName: {
-        // borderColor: "black",
-        // borderWidth: 1,
         padding: 15,
         fontWeight: "bold",
         fontSize: 16,
         color: "#253041",
     },
     noteDescription: {
-        // borderColor: "black",
-        // borderWidth: 1,
         paddingLeft: 15,
         paddingRight: 25,
         fontSize: 14,
@@ -62,8 +56,6 @@ const styles = StyleSheet.create({
         height: 50,
     },
     noteDate: {
-        // borderColor: "black",
-        // borderWidth: 1,
         borderRadius: 5,
         marginHorizontal: 20,
         alignSelf: "flex-start",
@@ -71,8 +63,6 @@ const styles = StyleSheet.create({
     },
     deleteButton: {
         padding: 5,
-        // borderColor: "black",
-        // borderWidth: 1,
         position: "absolute",
         right: 10,
         top: 10,

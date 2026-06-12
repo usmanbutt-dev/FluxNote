@@ -39,7 +39,6 @@ export default function CardList() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        // backgroundColor: "#F1F5F9",
     },
     heading: {
         paddingHorizontal: 20,
@@ -50,9 +49,6 @@ const styles = StyleSheet.create({
         marginBottom: 10,
     },
     list: {
-        // borderWidth: 1,
-        // borderColor: "black",
-        // paddingVertical: 10,
     },
     listContent: {
         gap: 10,

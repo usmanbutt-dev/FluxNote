@@ -34,10 +34,8 @@ export default function CustomHeader() {
 
 const styles = StyleSheet.create({
     container: {
-        // backgroundColor: "lightpink",
         borderStyle: "solid",
         borderColor: "black",
-        // borderWidth: 1,
         flexDirection: "row",
         paddingVertical: 15,
     },
@@ -46,7 +44,6 @@ const styles = StyleSheet.create({
         flex: 0.25,
         borderStyle: "solid",
         borderColor: "black",
-        // borderWidth: 1,
         justifyContent: "center",
         alignItems: "center"
     },
@@ -55,7 +52,6 @@ const styles = StyleSheet.create({
         flex: 0.5,
         borderStyle: "solid",
         borderColor: "black",
-        // borderWidth: 1,
         justifyContent: "center",
     },
 
@@ -63,7 +59,6 @@ const styles = StyleSheet.create({
         flex: 0.25,
         borderStyle: "solid",
         borderColor: "black",
-        // borderWidth: 1,
         justifyContent: "center",
         alignItems: "center"
     },
@@ -71,7 +66,6 @@ const styles = StyleSheet.create({
         borderRadius: 25,
         borderStyle: "solid",
         borderColor: "black",
-        // borderWidth: 0.5,
     },
     greeting: {
         fontSize: 10,
