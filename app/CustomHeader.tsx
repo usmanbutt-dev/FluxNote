@@ -33,11 +33,11 @@ export default function CustomHeader() {
 const styles = StyleSheet.create({
     container: {
         // backgroundColor: "lightpink",
-        flex: 0.1,
         borderStyle: "solid",
         borderColor: "black",
         // borderWidth: 1,
         flexDirection: "row",
+        paddingVertical: 15,
     },
 
     leftContainer: {
@@ -84,9 +84,9 @@ const styles = StyleSheet.create({
     },
     settings: {
         borderStyle: "solid",
-        borderColor: "black",
         padding: 10,
-        // borderWidth: 1,
+        borderColor: "#E3E9F0",
+        borderWidth: 1,
         borderRadius: 10,
         backgroundColor: "#f2f7ffff",
     },

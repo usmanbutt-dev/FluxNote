@@ -1,12 +1,13 @@
-import { StyleSheet, Text } from "react-native";
+import { StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import CustomHeader from "./CustomHeader";
+import HomeScreen from "./HomeScreen";
 
 export default function Index() {
   return (
     <SafeAreaView style={styles.container}>
       <CustomHeader />
-      <Text>FluxNote</Text>
+      <HomeScreen />
     </SafeAreaView>
   );
 }
