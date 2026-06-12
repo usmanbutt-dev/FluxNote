@@ -1,12 +1,12 @@
 import Feather from "@expo/vector-icons/Feather";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
-export default function Card() {
+export default function Card({ item }: { item: any }) {
     return (
         <View style={styles.container}>
 
             <Text style={styles.noteName}>
-                Untitled Note
+                {item.title}
             </Text>
             <Pressable style={styles.deleteButton}>
                 <Feather
@@ -17,11 +17,11 @@ export default function Card() {
             </Pressable>
 
             <Text numberOfLines={2} ellipsizeMode="tail" style={styles.noteDescription}>
-                Meeting notes template. Let's make sure Zustand is hooked with the expo-sqlite local driver properly. Meeting notes template. Let's make sure Zustand is hooked with the expo-sqlite local driver properly.
+                {item.description}
             </Text>
 
             <Text style={styles.noteDate}>
-                {new Date().toLocaleDateString()}
+                {item.date}
             </Text>
         </View>
     )
